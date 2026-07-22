@@ -1,0 +1,35 @@
+name: Verificar preços
+
+on:
+  schedule:
+    # roda às 09:00 e às 18:00 (horário UTC) -> 06:00 e 15:00 no horário de Brasília
+    - cron: "0 9,18 * * *"
+  workflow_dispatch: {} # permite rodar manualmente pelo botão "Run workflow" no GitHub
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r price_watch/requirements.txt
+
+      - name: Rodar verificação de preços
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python price_watch/price_watch.py
+
+      - name: Salvar histórico de preços
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualiza histórico de preços"
+          file_pattern: price_watch/last_prices.json
