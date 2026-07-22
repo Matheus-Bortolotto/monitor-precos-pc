@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Gabinete NZXT H6 Flow RGB (preto)",
+    "target_price": 950.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/568314/gabinete-nzxt-h6-flow-rgb-preto-dual-chamber-mid-tower-vidro-360-", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/gabinete-gamer-nzxt-h6-flow-rgb-mid-tower-lateral-de-vidro-com-3-fans-preto-cc-h61fb-r1", "price_selector": "NAO_CONFIRMADO" },
+      { "url": "https://www.mercadolivre.com.br/gabinete-h6-flow-rgb-preto-nzxt-preto/p/MLB40740737", "price_selector": ".andes-money-amount__fraction" }
+    ]
+  },
+  {
+    "name": "Corsair RM850x Shift 850W (preto)",
+    "target_price": 850.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/622080/fonte-corsair-850w-80-plus-gold-full-modular-rm850x-shift-cp-9020252-br", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/fonte-corsair-rm850x-shift-850w-atx-3-1-pcie-5-1-full-modular-cybenetics-gold-preto-cp-9020299-br", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "NZXT Kraken Plus 360 RGB v2 (preto)",
+    "target_price": 1200.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/728412/water-cooler-nzxt-kraken-plus-360-rgb-v2-preto-rl-kr360-b2", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/water-cooler-nzxt-kraken-plus-v2-rgb-360mm-com-tela-lcd-preto-rl-kr360-b2", "price_selector": "NAO_CONFIRMADO" },
+      { "url": "https://www.mercadolivre.com.br/water-cooler-nzxt-kraken-plus-360-rgb-v2-3-fans-rlkr360/up/MLBU3827723370", "price_selector": ".andes-money-amount__fraction" }
+    ]
+  },
+  {
+    "name": "Kingston NV3 2TB",
+    "target_price": 1349.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/632569/ssd-2tb-kingston-m-2-nvme-pcie-4-leitura-6000mb-s-gravacao-5000mb-s-nv3-snv3s-2000g", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/ssd-kingston-nv3-2tb-m-2-2280-pcie-nvme-leitura-6000mb-s-gravacao-5000mb-s-snv3s-2000g", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "Gigabyte RTX 5070 EAGLE OC SFF 12GB",
+    "target_price": 3800.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/883147/placa-de-video-gigabyte-rtx-5070-eagle-oc-sff-12gb-gddr7-192bits-gv-n5070eagle-oc-12gd", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.kabum.com.br/produto/714573/placa-de-video-gigabyte-rtx-5070-eagle-oc-sff-12g-nvidia-geforce-12gb-gddr7-192bits-rgb-dlss-ray-tracing-9vn5070eo-00-g10", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/placa-de-video-gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7-192-bit-gv-n5070eagle-oc-12gd", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "Ventoinha Corsair RS140 ARGB 140mm (preto)",
+    "target_price": 150.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/688135/ventoinha-corsair-rs140-argb-140mm-pwm-preto-co-9050182-ww", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/ventoinha-corsair-rs140-argb-140mm-preto-co-9050182-ww", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "Ventoinha NZXT F140 RGB 140mm (preto)",
+    "target_price": 150.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/369235/ventoinha-nzxt-140mm-rgb-preto-rf-r14sf-b1", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/ventoinha-nzxt-f140-rgb-140mm-preta-rf-r14sf-b1", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "Kit 2x Corsair iCUE LINK QX140 140mm RGB (preto)",
+    "target_price": 400.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/496600/kit-com-2-ventoinhas-corsair-icue-link-qx140-140mm-rgb-preto-co-9051004-ww", "price_selector": "h4.text-4xl.text-secondary-500" }
+    ]
+  },
+  {
+    "name": "Ventoinha Corsair RS120 ARGB 120mm (preto)",
+    "target_price": 120.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/688133/ventoinha-corsair-rs120-argb-120mm-pwm-preto-co-9050180-ww", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/ventoinha-corsair-rs120-argb-120mm-preto-co-9050180-ww", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  },
+  {
+    "name": "Ventoinha NZXT F120 RGB 120mm (preto)",
+    "target_price": 120.00,
+    "sources": [
+      { "url": "https://www.kabum.com.br/produto/369233/ventoinha-nzxt-120mm-rgb-preto-rf-r12sf-b1", "price_selector": "h4.text-4xl.text-secondary-500" },
+      { "url": "https://www.pichau.com.br/ventoinha-nzxt-f120-rgb-120mm-preta-rf-r12sf-b1", "price_selector": "NAO_CONFIRMADO" }
+    ]
+  }
+]
